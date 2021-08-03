@@ -1,0 +1,159 @@
+(pcb "/home/haaken/Dokumenter/piezo-jfet/SMD-converter/smd-converter/smd-converter.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.10")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  63000 -36500  51500 -36500  51500 -24000  63000 -24000
+            63000 -36500)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+      (place U1 57365 -30425 front 90 (PN LT6234))
+    )
+    (component "Package_DIP:DIP-8_W7.62mm"
+      (place J1 53545 -26585 front 0 (PN Conn_01x08_Male))
+    )
+  )
+  (library
+    (image "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+      (outline (path signal 50  3700 2700  -3700 2700))
+      (outline (path signal 50  3700 -2700  3700 2700))
+      (outline (path signal 50  -3700 -2700  3700 -2700))
+      (outline (path signal 50  -3700 2700  -3700 -2700))
+      (outline (path signal 100  -1950 1475  -975 2450))
+      (outline (path signal 100  -1950 -2450  -1950 1475))
+      (outline (path signal 100  1950 -2450  -1950 -2450))
+      (outline (path signal 100  1950 2450  1950 -2450))
+      (outline (path signal 100  -975 2450  1950 2450))
+      (outline (path signal 120  0 2560  -3450 2560))
+      (outline (path signal 120  0 2560  1950 2560))
+      (outline (path signal 120  0 -2560  -1950 -2560))
+      (outline (path signal 120  0 -2560  1950 -2560))
+      (pin RoundRect[T]Pad_1750x600_150.571_um 1 -2575 1905)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 2 -2575 635)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 3 -2575 -635)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 4 -2575 -1905)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 5 2575 -1905)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 6 2575 -635)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 7 2575 635)
+      (pin RoundRect[T]Pad_1750x600_150.571_um 8 2575 1905)
+    )
+    (image "Package_DIP:DIP-8_W7.62mm"
+      (outline (path signal 50  8700 1550  -1100 1550))
+      (outline (path signal 50  8700 -9150  8700 1550))
+      (outline (path signal 50  -1100 -9150  8700 -9150))
+      (outline (path signal 50  -1100 1550  -1100 -9150))
+      (outline (path signal 120  6460 1330  4810 1330))
+      (outline (path signal 120  6460 -8950  6460 1330))
+      (outline (path signal 120  1160 -8950  6460 -8950))
+      (outline (path signal 120  1160 1330  1160 -8950))
+      (outline (path signal 120  2810 1330  1160 1330))
+      (outline (path signal 100  635 270  1635 1270))
+      (outline (path signal 100  635 -8890  635 270))
+      (outline (path signal 100  6985 -8890  635 -8890))
+      (outline (path signal 100  6985 1270  6985 -8890))
+      (outline (path signal 100  1635 1270  6985 1270))
+      (pin Rect[A]Pad_1600x1600_um 1 0 0)
+      (pin Oval[A]Pad_1600x1600_um 5 7620 -7620)
+      (pin Oval[A]Pad_1600x1600_um 2 0 -2540)
+      (pin Oval[A]Pad_1600x1600_um 6 7620 -5080)
+      (pin Oval[A]Pad_1600x1600_um 3 0 -5080)
+      (pin Oval[A]Pad_1600x1600_um 7 7620 -2540)
+      (pin Oval[A]Pad_1600x1600_um 4 0 -7620)
+      (pin Oval[A]Pad_1600x1600_um 8 7620 0)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1750x600_150.571_um
+      (shape (polygon F.Cu 0  751.146 298.283  776.498 291.49  800.285 280.398  821.785 265.344
+            840.344 246.785  855.398 225.286  866.49 201.498  873.283 176.146
+            875.571 150  875.571 -150  873.283 -176.146  866.49 -201.498
+            855.398 -225.285  840.344 -246.785  821.785 -265.344  800.286 -280.398
+            776.498 -291.49  751.146 -298.283  725 -300.571  -725 -300.571
+            -751.146 -298.283  -776.498 -291.49  -800.285 -280.398  -821.785 -265.344
+            -840.344 -246.785  -855.398 -225.286  -866.49 -201.498  -873.283 -176.146
+            -875.571 -150  -875.571 150  -873.283 176.146  -866.49 201.498
+            -855.398 225.285  -840.344 246.785  -821.785 265.344  -800.286 280.398
+            -776.498 291.49  -751.146 298.283  -725 300.571  725 300.571
+            751.146 298.283))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad1)"
+      (pins U1-1 J1-1)
+    )
+    (net "Net-(J1-Pad5)"
+      (pins U1-5 J1-5)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins U1-2 J1-2)
+    )
+    (net "Net-(J1-Pad6)"
+      (pins U1-6 J1-6)
+    )
+    (net "Net-(J1-Pad3)"
+      (pins U1-3 J1-3)
+    )
+    (net "Net-(J1-Pad7)"
+      (pins U1-7 J1-7)
+    )
+    (net "Net-(J1-Pad4)"
+      (pins U1-4 J1-4)
+    )
+    (net "Net-(J1-Pad8)"
+      (pins U1-8 J1-8)
+    )
+    (class kicad_default "" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)"
+      "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
