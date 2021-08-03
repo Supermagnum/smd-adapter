@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/haaken/Dokumenter/piezo-jfet/SMD-converter/smd-converter/smd-converter.sch)
-    (date "ti. 03. aug. 2021 kl. 13.31 +0200")
+    (date "ti. 03. aug. 2021 kl. 19.21 +0200")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 610E4A57))
     (comp (ref J1)
       (value Conn_01x08_Male)
-      (footprint Package_DIP:DIP-8_W7.62mm)
+      (footprint tastatur:DIP-8_W7.62mm-adapter)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x08_Male) (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))

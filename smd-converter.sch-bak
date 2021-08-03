@@ -19,7 +19,7 @@ U 1 1 610E4A57
 P 3350 2400
 F 0 "U1" H 3350 2767 50  0000 C CNN
 F 1 "LT6234" H 3350 2676 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3350 2400 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3350 2400 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf" H 3350 2400 50  0001 C CNN
 	1    3350 2400
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 2 1 610E7D08
 P 3350 3150
 F 0 "U1" H 3350 3517 50  0000 C CNN
 F 1 "LT6234" H 3350 3426 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3350 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3350 3150 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf" H 3350 3150 50  0001 C CNN
 	2    3350 3150
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 3 1 610E9084
 P 3400 3950
 F 0 "U1" H 3358 3996 50  0000 L CNN
 F 1 "LT6234" H 3358 3905 50  0000 L CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3400 3950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 3950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf" H 3400 3950 50  0001 C CNN
 	3    3400 3950
 	1    0    0    -1  
